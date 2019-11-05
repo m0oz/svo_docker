@@ -11,7 +11,6 @@ Having a containerized version of SVO makes sure that we can use a Ubuntu16.04 i
  - From this repos root:
         
         cd docker
-        docker build -t ros_svo:v1 .
+        docker build -t ros_svo .
  
- To run the image invoke: ```docker run -it ros_svo:v1```
-#### Disclaimer
+ To run the image invoke: ```docker run -it ros_svo```
